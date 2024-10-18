@@ -1,12 +1,12 @@
 import axios from "axios";
 import React, { useEffect, useState } from "react";
-import { useSelector } from 'react-redux'
+// import { useSelector } from 'react-redux'
 import { Link, useNavigate } from "react-router-dom";
 
 
 
 function Home () {
-        const users = useSelector((state) => state.users);
+        // const users = useSelector((state) => state.users);
         const [student,setStudent] = useState([])
         const navigate = useNavigate()
 
@@ -38,11 +38,11 @@ function Home () {
                     </tr>
                 </thead>
                 <tbody>
-                    {student.map((user,index) => (
-                        <tr key={user.id}>
+                    {student.map((student,index) => (
+                        <tr key={student.id}>
                             <td>{index+1}</td>
-                            <td>{user.Student_name}</td>
-                            <td>{user.Student_Email}</td>
+                            <td>{student.Student_name}</td>
+                            <td>{student.Student_Email}</td>
                             <td>
                                 <button className="btn btn-sm btn-primary">Edit</button>
                                 <button className="btn btn-sm btn-danger">Delete</button>
