@@ -10,7 +10,6 @@ import AddStudent from './component/StudentModule/AddStudent';
 //       users: Reducer
 //   }
 // })
-
 const router = createBrowserRouter([
   {
     path: "/",
@@ -27,5 +26,4 @@ function App() {
     <RouterProvider router={router} />
   </div>
 }
-
 export default App;
