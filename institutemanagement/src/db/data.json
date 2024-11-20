@@ -1,9 +1,92 @@
 {
-    "student":[
-        {
-            "id":0,
-            "Student_name":"ketan",
-            "Student_Email":"ketan@gmail.com"
-        }
-    ]
+  "student": [
+    {
+      "name": "shekhar kumar",
+      "email": "admin@gmail.com",
+      "number": "544548994654",
+      "course": "Angular",
+      "gender": "male",
+      "address": "mumbi",
+      "id": 5
+    },
+    {
+      "name": "ketan gosavi",
+      "email": "ketan2002@gmail.com",
+      "number": "8888649566",
+      "course": "React",
+      "gender": "male",
+      "address": "pune (manjari)",
+      "id": 6
+    },
+    {
+      "name": "vikas andhale",
+      "email": "rakesh@gmail.com",
+      "number": "7020673758",
+      "course": "Angular",
+      "gender": "male",
+      "address": "At Post Pune",
+      "id": 7
+    },
+    {
+      "name": "thakur bhanupratap singh",
+      "email": "jeherilikhir@gmail.com",
+      "number": "9777556162",
+      "course": "Java",
+      "gender": "male",
+      "address": "At post suryavanshm",
+      "id": 8
+    }
+  ],
+  "userstudent": [
+    {
+      "name": "sanket bahir",
+      "studentnum": "8999668028",
+      "parentnum": "8380976027",
+      "email": "sanketbahir2017@gmail.com",
+      "address": "AtPost Rajuri Navagan Beed",
+      "id": 1
+    }
+  ],
+  "userbatch": [
+    {
+      "batchname": "React Js",
+      "startDate": "2024-11-14",
+      "endDate": "2025-02-14",
+      "batchTime": "09:30",
+      "numStudents": "30",
+      "id": 1
+    },
+    {
+      "batchname": "Angular",
+      "startDate": "2024-12-10",
+      "endDate": "2025-02-10",
+      "batchTime": "12:00",
+      "numStudents": "8",
+      "id": 2
+    },
+    {
+      "batchname": "Python",
+      "startDate": "2025-01-01",
+      "endDate": "2025-03-01",
+      "batchTime": "03:00",
+      "numStudents": "20",
+      "id": 3
+    },
+    {
+      "batchname": "Java",
+      "startDate": "2024-11-19",
+      "endDate": "2025-01-20",
+      "batchTime": "04:00",
+      "numStudents": "20",
+      "id": 4
+    },
+    {
+      "batchname": "Java",
+      "startDate": "2025-11-02",
+      "endDate": "2025-04-02",
+      "batchTime": "03:00",
+      "numStudents": "20",
+      "id": 5
+    }
+  ]
 }
